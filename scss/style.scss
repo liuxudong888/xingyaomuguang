@@ -8,6 +8,8 @@ header ul a{color:#808080;font:14px/32px "";padding:0 8px;vertical-align: middle
 header ul li img{margin-top:8px;}
 header ul li a:hover{color:#b71c20;}
 
+.weixin{width:147px;height: 168px;position: fixed;left:1067px ;top: 36px; display: none;}
+
 nav{width:100%;height:166px;}
 nav .zuo1{padding-top:28px;width: 100%;}
 nav .zuo1 span{float: right;display: block;}
@@ -26,6 +28,14 @@ nav .top-2 ul li a{color:#727171;}
 nav .top-2 ul li a:hover{color:#b71c20;}
 nav .top-2 ul li img{float: right;margin:-4px 0px  ;}
 nav .top-2 .shouye{border-left:none;}
+
+#box{
+            position: relative;
+            width: 1200px;
+            height: 535px;
+            
+            background-color: pink;
+        }
 
 .tu2{padding:40px;}
 .neirong ul{padding-bottom:24px;}
@@ -50,7 +60,7 @@ nav .top-2 .shouye{border-left:none;}
 .nei3 h3{font: 14px/24px "";color:#333;float: left;margin:20px 11px;}
 .nei3 h4{font: 14px/24px "";color:#a10000;float: right;margin:20px 11px;}
 
-.jinpin{}
+.jinpin{margin-bottom: 48px;}
 .biao p{text-align: center;color: #9a9a9a;margin:46px;font:18px/24px "";}
 .jin{width:590px;border:1px solid #e8e7ec;height:508px;float: left;}
 .jin h3{font: 14px/28px "";color:#333;float: left;margin:18px 11px;}
@@ -68,7 +78,28 @@ nav .top-2 .shouye{border-left:none;}
 .jin2 h3{font: 14px/24px "";color:#333;float: left;margin:22px 11px;}
 .jin2 h4{font: 14px/24px "";color:#a10000;float: right;margin:22px 11px;}
 
-.kefu{width:100%;height:284px;margin-top:48px;border: 1px solid #e0e0e1;}
-.zuobian1{width:1118px;height: 138px;border:1px solid #B71C20;margin-left:40px ;}
+.kefushouhou{border: 1px solid #e0e0e1;}
+.zuobian1{height: 138px;padding:33px 0px 0 38px;}
 .zuobian1 ul{float: left;}
-.zuobian1 ul li{float: left;}
+.zuobian1 ul li{float: left;width:371px;height:138px ;border-right:1px solid #e0e0e1;}
+.zuobian1 ul li img{margin:15px 0 0 166px;}
+.zuobian1 ul li h4{font: 12px/24px "";width: 155px;height: 32px;background:#B81B22 ;margin:28px 0 0 108px;color:#fff;text-align: center;}
+.zuobian1 ul li h3{margin:22px 0  0 152px;font:12px/24px "";color: #727171;}
+.zuobian1 ul li p{margin-left:132px;font: 12px/24px "";color: #727171;}
+.zuobian1 ul .tu1-1 img{margin:3px 0 0 136px;}
+.zuobian1 ul .tu1-1 h5{margin:8px 0 0 132px;font:12px/24px "" ;color:#727171;}
+.zuobian1 ul .tu1-1 b{font:12px/24px "";color:#B81B22;}
+.zuobian1 .tu1-1{border-right: none;}
+
+.youbian1{width: 1118px;height: 57px;background:#f8f8f8;margin:23px 0 31px 40px;}
+.youbian1 ul{float: left;}
+.youbian1 ul li{float: left;width: 178px;height:26px;border-right: 1px solid #dadadb;margin-top: 18px;}
+.youbian1 ul li a{font: 12px/24px "";padding-left: 64px;}
+.youbian1 .qudiao{border-right:none;}
+
+footer{padding-top:26px ;}
+footer p{border-top:1px solid #000;}
+footer h4{font: 12px/24px "";padding-top:17px;text-align: center;}
+footer h5{font: 12px/24px "";padding-top:14px;text-align: center;}
+footer ul{float: left;padding: 47px 0 24px 222px;}
+footer ul li{float: left;display:block;margin-left: 20px;}
